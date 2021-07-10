@@ -1,0 +1,23 @@
+.nav-bar
+{
+    background-color: #24292e;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* padding-bottom: 4.5%; */
+}
+.github-container
+{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: 3%;
+}
+.github
+{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
