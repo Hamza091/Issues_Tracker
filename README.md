@@ -1,3 +1,8 @@
+# `Description`
+
+The goal of this web application is to track issues of multiple repositories , so that one can easily get notified when new issue is added to any
+of the tracking repository.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -29,8 +34,5 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# `Description`
 
-The goal of this web application is to track issues of multiple repositories , so that one can easily get notified when new issue is added to any
-of the tracking repository.
 
