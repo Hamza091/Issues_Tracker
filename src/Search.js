@@ -20,9 +20,7 @@ export default function Search() {
             console.log(reposName)
             for(var i =0; i<reposName.length; i++)
             {
-                const newIssues=await axios.get(`https://api.github.com/repos/${reposName[i].inputText}/issues`,{
-                    headers:headerss
-                })
+                const newIssues=await axios.get(`https://api.github.com/repos/${reposName[i].inputText}/issues`)
                 let temp =reposName[i].latestIssue
                
                 if((newIssues.data)[0].number>temp)
@@ -146,7 +144,7 @@ export default function Search() {
     return (
         <div className="search-container">
             <div className="search-bar">
-                <input type="text" onChange={(e)=>{setInputText(e.target.value)}} placeholder="Search Repo..." id="search"/>
+                <input type="text" onChange={(e)=>{setInputText(e.target.value)}} placeholder="username/reponame" id="search"/>
                 <div className="button-container">
                     <button className="button" onClick={Search}>Search</button>
                 </div>
